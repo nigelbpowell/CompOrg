@@ -38,3 +38,9 @@ main:
 	sub $a0, 18        # 119 - 18 = 101 (e)
 	syscall 
 	add $a0, 7         # 101 + 7 = 108 (l)
+	syscall
+	add $a0, 0         # 108 + 0 = 108 (l)
+	syscall
+	sub $a0, 64        # 108 - 64 = 44 (,)
+	syscall
+	
