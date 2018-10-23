@@ -43,4 +43,9 @@ main:
 	syscall
 	sub $a0, 64        # 108 - 64 = 44 (,)
 	syscall
+	sub $a0, 12        # 44 - 12 = 32 (SPACE)
+	syscall
+	add $a0, 46        # 32 + 46 = 78 (N)
+	syscall 
+	add $a0, 27         # 78 + 27 = 105 (i)
 	
