@@ -53,5 +53,9 @@ main:
 	syscall
 	sub $a0, 2         # 103 - 2 = 101 (e)
 	syscall
+	add $a0, 7         # 101 + 7 = 108 (l)
+	syscall
+	
+	jr $ra
 	
 	
