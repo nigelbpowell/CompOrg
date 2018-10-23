@@ -1,0 +1,5 @@
+# PROGRAM: Print ID Number and Name
+.text
+main:
+	li $v0, 11
+	la $a0, 64 
