@@ -18,3 +18,8 @@ main:
 	sub $a0, 1         # 3 - 1 = 2
 	syscall
 	addi $a0, 2        # 2 + 2 = 4
+	syscall
+	addi $a0, 3      # 4 + 3 = 7
+	syscall
+
+	li $v0, 11
