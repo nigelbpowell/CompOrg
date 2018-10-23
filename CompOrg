@@ -28,3 +28,8 @@ main:
 	add $a0, 2
 	syscall
 	sub $a0, 2         #Return line
+	syscall
+	add $a0, 70        # 10 + 70 = 80 (P)
+	syscall
+	add $a0, 31        # 80 + 31 = 111 (o)
+	syscall
