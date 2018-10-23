@@ -48,4 +48,10 @@ main:
 	add $a0, 46        # 32 + 46 = 78 (N)
 	syscall 
 	add $a0, 27         # 78 + 27 = 105 (i)
+	syscall
+	sub $a0, 2         # 105 - 2 = 103 (g)
+	syscall
+	sub $a0, 2         # 103 - 2 = 101 (e)
+	syscall
+	
 	
